@@ -77,6 +77,9 @@ const Formulario = ({setGasto, setCrearGasto}) => {
     );
 }
 
- 
+Formulario.propTypes ={
+    setGasto: PropTypes.func.isRequired,
+    setCrearGasto: PropTypes.func.isRequired
+}
 
 export default Formulario;
